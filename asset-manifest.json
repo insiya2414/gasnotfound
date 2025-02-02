@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shakethatgas/static/css/main.e6c13ad2.css",
+    "main.js": "/shakethatgas/static/js/main.e7a6c06d.js",
+    "static/js/488.06f5a19a.chunk.js": "/shakethatgas/static/js/488.06f5a19a.chunk.js",
+    "index.html": "/shakethatgas/index.html",
+    "main.e6c13ad2.css.map": "/shakethatgas/static/css/main.e6c13ad2.css.map",
+    "main.e7a6c06d.js.map": "/shakethatgas/static/js/main.e7a6c06d.js.map",
+    "488.06f5a19a.chunk.js.map": "/shakethatgas/static/js/488.06f5a19a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e7a6c06d.js"
+  ]
+}
