@@ -2,6 +2,8 @@
   "name": "gasnotfound-1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://insiya2414.github.io/shakethatgas",
+
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
@@ -12,12 +14,15 @@
     "react-tsparticles": "^2.12.0",
     "tsparticles": "^2.12.0",
     "web-vitals": "^4.2.4"
+    
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -36,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

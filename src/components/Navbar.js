@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav style={styles.navbar}>
       {/* Logo + Project Name */}
       <div style={styles.logoContainer}>
-        <img src="/images/logo_chevron.jpg" alt="Gas Not Found Logo" style={styles.logoImage} />
+        <img src="C:\Users\rajai\gasnotfound-1\public\images\userstory1.jpg" alt="Gas Not Found Logo" style={styles.logoImage} />
         <div style={styles.logoText}>404. Gas Not Found</div>
       </div>
 
