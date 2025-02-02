@@ -266,8 +266,8 @@ const Home = () => {
       <div style={styles.missionSection}>
         <h1 style={styles.heading}>Our Mission</h1>
         <p style={styles.missionText}>
-          At <strong>'Gas not Found'</strong>, we predict the future of cars by analyzing data from 2019 to 2024. 
-          Whether it's electric, hybrid, or gas vehicles, we forecast 2025 trends to help everyone prepare. 
+          At <strong>'Gas not Found'</strong>, we predict the future of cars by analyzing data from 2019 to 2023. 
+          Whether it's electric, hybrid, or gas vehicles, we forecast 2024 trends to help everyone prepare. 
           Join us in exploring the future of driving, one data point at a time! 🚗✨
         </p>
       </div>
@@ -279,19 +279,19 @@ const Home = () => {
           <UserStoryCard 
             image="/images/userstory1.jpg"
             title="Emma Peterson"
-            text="The predictions from the Gas not Found project have been invaluable in understanding future transportation trends."
-          />
+            text={<em>"The predictions from the Gas not Found project have been invaluable in understanding future transportation trends."</em>}
+            />
 
           <UserStoryCard 
             image="/images/userstory2.jpg"
             title="Frank Williams"
-            text="With the data from the Gas not Found project, I feel more confident in choosing safe and reliable vehicles for my family."
+            text={<em>"With the data from the Gas not Found project, I feel more confident in choosing safe and reliable vehicles for my family."</em>}
           />
 
           <UserStoryCard 
             image="/images/userstory3.jpg"
             title="Isabella Cortez"
-            text="The Gas not Found project has made it easier for me to find cost-effective and fuel-efficient vehicles."
+            text={<em>"The Gas not Found project has made it easier for me to find cost-effective and fuel-efficient vehicles."</em>}
           />
         </div>
       </div>
